@@ -25,7 +25,7 @@ bouyomi.Client = function(url, port, opts) {
 
 };
 
-bouyomi.Client.prototype.send = function(message, opts){
+bouyomi.Client.prototype.sendMessage = function(message, opts){
 
 socket.connect(this.port, this.url, function(){
 
